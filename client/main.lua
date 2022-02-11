@@ -33,3 +33,5 @@ AddEventHandler('rebel-promocodes:client:openpromocodecreator', function()
         TriggerServerEvent("rebel-promocodes:server:createpromocode", dialog)
     end
 end)
+
+if Config.UseESX then -- SOON
